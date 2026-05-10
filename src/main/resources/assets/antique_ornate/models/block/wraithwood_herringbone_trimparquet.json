@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "antique_ornate:block/wraithwood_herringbone_trimparquet_parquet",
+    "side": "antique_ornate:block/wraithwood_herringbone_trimparquet_trim"
+  }
+}

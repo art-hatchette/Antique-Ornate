@@ -1,0 +1,17 @@
+{
+  "creativetab.antique_ornate": "Antique & Ornate",
+  "item.antique_ornate.soul": "Soul",
+  "block.antique_ornate.wraithwood_planks": "Wraithwood Planks",
+  "block.antique_ornate.waxed_wraithwood_planks": "Waxed Wraithwood Planks",
+
+  "sounds.antique_ornate.haunted_wood_break": "Block riven",
+  "sounds.antique_ornate.haunted_wood_step": "Footfall",
+  "sounds.antique_ornate.haunted_wood_place": "Block laid",
+  "sounds.antique_ornate.haunted_wood_hit": "Block rending",
+  "sounds.antique_ornate.haunted_wood_fall": "Something befell",
+
+
+
+
+  "block.antique_ornate.wraithwood_herringbone_trimparquet": "Wraithwood Herringbone Trimparquet"
+}

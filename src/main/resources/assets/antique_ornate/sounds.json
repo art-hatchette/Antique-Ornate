@@ -1,0 +1,51 @@
+{
+  "haunted_wood_break": {
+    "subtitle": "sounds.antique_ornate.haunted_wood_break",
+    "sounds": [
+      "antique_ornate:haunted_wood_dig1",
+      "antique_ornate:haunted_wood_dig2",
+      "antique_ornate:haunted_wood_dig3",
+      "antique_ornate:haunted_wood_dig4"
+    ]
+  },
+  "haunted_wood_step": {
+    "subtitle": "sounds.antique_ornate.haunted_wood_step",
+    "sounds": [
+      "antique_ornate:haunted_wood_hit1",
+      "antique_ornate:haunted_wood_hit2",
+      "antique_ornate:haunted_wood_hit3",
+      "antique_ornate:haunted_wood_hit4",
+      "antique_ornate:haunted_wood_hit5",
+      "antique_ornate:haunted_wood_hit6"
+    ]
+  },
+  "haunted_wood_place": {
+    "subtitle": "sounds.antique_ornate.haunted_wood_place",
+    "sounds": [
+      "antique_ornate:haunted_wood_dig1",
+      "antique_ornate:haunted_wood_dig2",
+      "antique_ornate:haunted_wood_dig3",
+      "antique_ornate:haunted_wood_dig4"
+    ]
+  },
+  "haunted_wood_hit": {
+    "subtitle": "sounds.antique_ornate.haunted_wood_hit",
+    "sounds": [
+      "antique_ornate:haunted_wood_mining1",
+      "antique_ornate:haunted_wood_mining2",
+      "antique_ornate:haunted_wood_mining3",
+      "antique_ornate:haunted_wood_mining4",
+      "antique_ornate:haunted_wood_mining5",
+      "antique_ornate:haunted_wood_mining6"
+    ]
+  },
+  "haunted_wood_fall": {
+    "subtitle": "sounds.antique_ornate.haunted_wood_fall",
+    "sounds": [
+      "antique_ornate:haunted_wood_jump1",
+      "antique_ornate:haunted_wood_jump2",
+      "antique_ornate:haunted_wood_jump3",
+      "antique_ornate:haunted_wood_jump4"
+    ]
+  }
+}
