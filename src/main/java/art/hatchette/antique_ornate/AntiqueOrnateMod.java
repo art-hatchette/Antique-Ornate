@@ -1,7 +1,15 @@
 package art.hatchette.antique_ornate;
 
+
 import art.hatchette.antique_ornate.item.ModCreativeModeTabs;
 import art.hatchette.antique_ornate.item.ModItems;
+import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.RenderTooltipEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -43,6 +51,7 @@ public class AntiqueOrnateMod {
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
+
     private void commonSetup(FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
@@ -62,4 +71,5 @@ public class AntiqueOrnateMod {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
+
 }
