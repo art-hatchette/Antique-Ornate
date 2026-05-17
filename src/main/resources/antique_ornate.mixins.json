@@ -4,6 +4,7 @@
   "package": "art.hatchette.antique_ornate.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CreativeModeTabMixin"
   ],
   "client": [
     "CreativeModeInventoryScreenMixin"

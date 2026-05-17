@@ -1,0 +1,11 @@
+{
+  "credit": "Made by Hatchett",
+  "parent": "antique_ornate:block/connective_base",
+  "loader": "antique_ornate:connective",
+  "variant": "pillar",
+  "textures": {
+    "connective": "antique_ornate:block/wraithwood_versailles_trimparquet_trim",
+    "simple": "antique_ornate:block/wraithwood_versailles_trimparquet_parquet",
+    "particle": "antique_ornate:block/wraithwood_versailles_trimparquet_parquet"
+  }
+}

@@ -23,7 +23,9 @@ logoFile="antiqueornate_logo.png"
 [[mods]] #mandatory
 
 # The authors of the mod, displayed in the mod UI (optional)
-authors="Art Hatchétte"
+authors="Individual & Non-collaborative Publications of Art Hatchétte"
+
+credits="Art Hatchétte"
 
 # The modid of the mod
 modId="${mod_id}" #mandatory
@@ -88,13 +90,6 @@ config="${mod_id}.mixins.json"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
     ordering="NONE"
-    side="BOTH"
-
-[[dependencies.${mod_id}]]
-    modId="moonlight"
-    type="required"
-    versionRange="[1.21.1-3.0.7,)"
-    ordering="AFTER"
     side="BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
