@@ -1,0 +1,11 @@
+{
+	"credit": "Made by Hatchett",
+	"parent": "antique_ornate:block/connective_base",
+	"loader": "antique_ornate:connective",
+	"variant": "horizontal",
+	"textures": {
+		"connective": "antique_ornate:block/divintine_bricks_top",
+		"particle": "antique_ornate:block/divintine_bricks",
+		"simple": "antique_ornate:block/divintine_bricks"
+	}
+}

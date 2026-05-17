@@ -1,0 +1,11 @@
+{
+	"credit": "Made by Hatchett",
+	"parent": "antique_ornate:block/connective_base",
+	"render_type": "minecraft:cutout_mipped",
+	"loader": "antique_ornate:connective",
+	"variant": "all",
+	"textures": {
+		"connective": "antique_ornate:block/framed_black_lacquer",
+		"particle": "antique_ornate:block/black_lacquer"
+	}
+}

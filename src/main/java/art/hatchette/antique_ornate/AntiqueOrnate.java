@@ -1,15 +1,10 @@
 package art.hatchette.antique_ornate;
 
 
+import art.hatchette.antique_ornate.block.OrnateBlocks;
 import art.hatchette.antique_ornate.item.ModCreativeModeTabs;
 import art.hatchette.antique_ornate.item.ModItems;
-import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTab;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.neoforge.client.event.RenderTooltipEvent;
+import art.hatchette.antique_ornate.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -26,8 +21,8 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(AntiqueOrnateMod.MOD_ID)
-public class AntiqueOrnateMod {
+@Mod(AntiqueOrnate.MOD_ID)
+public class AntiqueOrnate {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "antique_ornate";
     // Directly reference a slf4j logger
@@ -35,11 +30,13 @@ public class AntiqueOrnateMod {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public AntiqueOrnateMod(IEventBus modEventBus, ModContainer modContainer) {
+    public AntiqueOrnate(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        ModItems.ITEMS.register(modEventBus);
+        ModItems.register(modEventBus);
+        OrnateBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
@@ -65,7 +62,6 @@ public class AntiqueOrnateMod {
         Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts

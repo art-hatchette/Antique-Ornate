@@ -1,9 +1,0 @@
-{
-  "sources": [
-    {
-      "type": "directory",
-      "source": "container/creative_inventory",
-      "prefix": "antique_ornate:gui/sprites/container/creative_inventory/"
-    }
-  ]
-}

@@ -3,6 +3,10 @@
   "item.antique_ornate.soul": "Soul",
   "block.antique_ornate.wraithwood_planks": "Wraithwood Planks",
   "block.antique_ornate.waxed_wraithwood_planks": "Waxed Wraithwood Planks",
+  "block.antique_ornate.divintine": "Divintine",
+  "block.antique_ornate.divintine_bricks": "Divintine Bricks",
+  "block.antique_ornate.wraithwood_versailles_trimparquet": "Wraithwood Versailles Trimparquet",
+  "block.antique_ornate.framed_black_lacquer": "Framed Black Lacquer",
 
   "sounds.antique_ornate.haunted_wood_break": "Block riven",
   "sounds.antique_ornate.haunted_wood_step": "Footfall",
